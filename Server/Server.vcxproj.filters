@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="HookManager">
+      <UniqueIdentifier>{1ce5a1d4-7b07-4850-ba29-387986f54119}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapleCrypto">
+      <UniqueIdentifier>{593115a6-0b9d-4937-b95b-b857657bc31c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IOBuffer">
+      <UniqueIdentifier>{11243f17-0818-4937-b50f-85a4d6c91e04}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Entrypoint.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="CHookManager.cpp">
+      <Filter>HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CApiHook.cpp">
+      <Filter>HookManager</Filter>
+    </ClCompile>
+    <ClCompile Include="CRajan.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MapleCrypto.cpp">
+      <Filter>MapleCrypto</Filter>
+    </ClCompile>
+    <ClCompile Include="CIOBuffer.cpp">
+      <Filter>IOBuffer</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CHookManager.hpp">
+      <Filter>HookManager</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="CApiHook.hpp">
+      <Filter>HookManager</Filter>
+    </ClInclude>
+    <ClInclude Include="CRajan.hpp">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MapleCrypto.h">
+      <Filter>MapleCrypto</Filter>
+    </ClInclude>
+    <ClInclude Include="CIOBuffer.hpp">
+      <Filter>IOBuffer</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
